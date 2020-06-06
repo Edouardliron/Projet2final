@@ -1,0 +1,52 @@
+body
+{
+	background-color: black;
+}
+#container
+{
+	margin: auto;
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+img
+{
+	width: 130px;
+	border-radius: 50%;
+	border:1px solid white;
+}
+.resume
+{
+	background-color: #FFEB3B;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+#image
+{
+	background-color: #FFEB3B;
+	width: 25%;
+	display: flex;
+	justify-content: center;
+}
+#name
+{
+	background-color: white;
+	width: 75%;
+}
+aside
+{
+	background-color: #FFEB3B;
+	width: 25%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#informations
+{
+	background-color: white;
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+}
