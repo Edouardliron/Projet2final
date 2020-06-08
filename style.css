@@ -26,27 +26,78 @@ img
 #image
 {
 	background-color: #FFEB3B;
-	width: 25%;
+	width: 30%;
 	display: flex;
 	justify-content: center;
 }
 #name
 {
 	background-color: white;
-	width: 75%;
+	width: 70%;
 }
 aside
 {
 	background-color: #FFEB3B;
-	width: 25%;
+	width: 30%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-#informations
+.col_md4_aside
+{
+	background-color : grey;
+	padding: 0;
+	text-align: center;
+}
+#informations 
 {
 	background-color: white;
-	width: 75%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+.formation 
+{
+	background-color: blue;
+	border-bottom: 1px solid #FFEB3B;
+	margin: 30px;
 	display: flex;
 	flex-direction: row;
+}
+.image_svg
+{
+	background-color: mediumvioletred;
+	display: flex;
+	flex-direction: column;
+}
+.date
+{
+	background-color: blue;
+	display: flex;
+	flex-direction: column;
+}
+.TEXTE
+{
+	background-color: mediumvioletred;
+	display: flex;
+	flex-direction: column;
+}
+ul
+{
+	list-style-type: none;
+}
+#LOISIRS
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.col_md6_recommandation 
+{
+	background-color: blue;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: normal;
 }
