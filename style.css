@@ -74,7 +74,22 @@ aside
 	display: flex;
 	flex-direction: column;
 }
-
+.resume_education
+{
+	display: flex;
+	flex-direction: row;
+}
+.resume_work
+{
+	display: flex;
+	flex-direction: row;
+}
+.resume_recommandation
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 .title 
 {
 	border-bottom: 1px solid #FFEB3B;
@@ -110,11 +125,10 @@ ul
 	justify-content: space-around;
 }
 
+
 .col_md6_recommandation 
 {
 	background-color: blue;
 	border: 1px solid black;
-	display: flex;
-	flex-direction: row;
-	justify-content: normal;
+
 }
