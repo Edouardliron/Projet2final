@@ -78,17 +78,20 @@ aside
 {
 	display: flex;
 	flex-direction: row;
+	margin: 30px;
 }
 .resume_work
 {
 	display: flex;
 	flex-direction: row;
+	margin: 30px;
 }
 .resume_recommandation
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	margin: 30px;
 }
 .title 
 {
