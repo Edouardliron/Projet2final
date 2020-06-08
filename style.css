@@ -14,7 +14,7 @@ img
 {
 	width: 130px;
 	border-radius: 50%;
-	border:1px solid white;
+	border:2px solid orange;
 }
 .resume
 {
@@ -23,12 +23,13 @@ img
 	flex-wrap: wrap;
 	flex-direction: row;
 }
-#image
-{
+#image {
 	background-color: #FFEB3B;
 	width: 30%;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
 }
 #name
 {
@@ -40,14 +41,14 @@ aside
 	background-color: #FFEB3B;
 	width: 30%;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-direction: column;
 }
-.col_md4_aside
+.col_md4_aside 
 {
-	background-color : grey;
+	background-color: grey;
 	padding: 0;
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
 #informations 
 {
@@ -57,13 +58,11 @@ aside
 	flex-direction: column;
 }
 
-.formation 
+.title 
 {
-	background-color: blue;
 	border-bottom: 1px solid #FFEB3B;
 	margin: 30px;
-	display: flex;
-	flex-direction: row;
+	font-family: 'Montserrat', sans-serif;
 }
 .image_svg
 {
@@ -90,7 +89,8 @@ ul
 #LOISIRS
 {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 .col_md6_recommandation 
