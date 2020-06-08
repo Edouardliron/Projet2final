@@ -99,6 +99,11 @@ aside
 	margin: 30px;
 	font-family: 'Montserrat', sans-serif;
 }
+.title i
+{
+	color: orange;
+	font-size: 25px;
+}
 .image_svg
 {
 	background-color: mediumvioletred;
