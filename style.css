@@ -1,6 +1,7 @@
 body
 {
 	background-color: black;
+	margin: 0;
 }
 #container
 {
@@ -8,7 +9,6 @@ body
 	width: 900px;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 }
 h1
 {
@@ -16,23 +16,23 @@ h1
 }
 .titel_color 
 {
-	color: #FFEB3B;
+	color: orange;
 }
 img 
 {
 	width: 130px;
 	border-radius: 50%;
-	border: 2px solid orange;
+	border: 2px solid white;
 }
 .resume
 {
-	background-color: #FFEB3B;
+	background-color: orange;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: row;
 }
-#image {
-	background-color: #FFEB3B;
+#image 
+{
+	background-color: orange;
 	width: 30%;
 	display: flex;
 	justify-content: center;
@@ -46,7 +46,7 @@ img
 }
 aside
 {
-	background-color: #FFEB3B;
+	background-color: orange;
 	width: 30%;
 	display: flex;
 	flex-direction: column;
@@ -114,21 +114,36 @@ aside
 	display: flex;
 	flex-direction: column;
 }
-ul
-{
-	list-style-type: none;
-}
 #LOISIRS
 {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 }
-
-
-.col_md6_recommandation 
+.resume_loisirs ul 
 {
-	background-color: blue;
-	border: 1px solid black;
-
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
 }
+.resume_loisirs ul li
+{
+	width: 70px;
+	height: 70px;
+	border: 2px solid black;
+	border-radius: 50%;
+	position: relative;
+	color: black;
+}
+.resume_loisirs ul li i
+{
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.col_md6_recommandation {
+		background-color: blue;
+		border: 1px solid black;
+	}
