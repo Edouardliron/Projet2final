@@ -10,11 +10,19 @@ body
 	flex-direction: column;
 	flex-wrap: wrap;
 }
-img
+h1
+{
+	font-size: 30px;
+}
+.titel_color 
+{
+	color: #FFEB3B;
+}
+img 
 {
 	width: 130px;
 	border-radius: 50%;
-	border:2px solid orange;
+	border: 2px solid orange;
 }
 .resume
 {
@@ -45,10 +53,19 @@ aside
 }
 .col_md4_aside 
 {
-	background-color: grey;
-	padding: 0;
+	background-color: black;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	color: #FFEB3B;
+}
+.bloc_contact /*Bloc des H6 + p*/
+{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	font-size: large;
+	margin: 10px;
+	margin-right: 40px;
 }
 #informations 
 {
