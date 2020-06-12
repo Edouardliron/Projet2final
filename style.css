@@ -58,12 +58,12 @@ body
 	background-color: black;
 	margin: 0;
 }
-.container
+.container /*Page*/
 {
 	margin: auto;
-	width: 1200px;
-	display: flex;
-	flex-direction: column;
+	width: 1190px;
+	height: 1684px;
+	border: 2px solid blue;
 }
 h1
 {
@@ -73,38 +73,22 @@ h1
 {
 	color: orange;
 }
-img 
+img /*Image du CV*/
 {
-	width: 130px;
+	margin-top: 62px;
+	margin-bottom: 40px;
+	margin-left: 79px;
+	margin-right: 83px;
+	width: 216px;
 	border-radius: 50%;
-	border: 2px solid white;
+	border: 4px solid white;
+	text-align: center;
 }
-.resume
+.resume /*Bloc de la page complète*/
 {
-	background-color: orange;
+	width: 1190px; /*est-je besoin de remettre la largeur ici ?*/
 	display: flex;
 	flex-direction: row;
-}
-.image 
-{
-	background-color: orange;
-	width: 30%;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 5px;
-	margin-top: 10px;
-}
-#name
-{
-	background-color: white;
-	width: 70%;
-}
-aside
-{
-	background-color: orange;
-	width: 30%;
-	display: flex;
-	flex-direction: column;
 }
 .title_aside 
 {
@@ -116,21 +100,43 @@ aside
 	vertical-align: middle;
 	color: #FFEB3B;
 }
-.bloc_contact /*Bloc des H6 + p*/
+.bloc_left /*Bloc global de la colonne gauche*/
+{
+	width: 384px;
+	background-color: orange;
+}
+.bloc_right /*Bloc Global de la colonne droite*/
+{
+	width: 806px;
+	background-color: white;
+
+}
+.resume_contact /*Bloc Contact au complet*/
+{
+	height: 392px;
+}
+.resume_aboutme /*Bloc à propos de moi*/
+{
+	height: 780px;
+}
+.resume_loisirs /*Bloc Loisirs*/
+{
+	height: 182px;
+}
+.information_contact /*Bloc qui contient adresse, téléphone etc..*/
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 36px;
+}
+
+.bloc_contact /*Bloc des H6 + p*/ 
 {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
 	font-size: large;
-	margin: 10px;
-	margin-right: 40px;
-}
-.informations 
-{
-	background-color: white;
-	width: 70%;
-	display: flex;
-	flex-direction: column;
+	height: 57px;
 }
 .resume_item
 {
@@ -211,7 +217,8 @@ aside
 	transform: translate(-50%,-50%);
 }
 
-.col_md6_recommandation {
+.col_md6_recommandation 
+{
 		background-color: blue;
 		border: 1px solid black;
-	}
+}
