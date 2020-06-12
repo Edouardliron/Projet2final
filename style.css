@@ -73,7 +73,7 @@ h1
 {
 	color: orange;
 }
-img /*Image du CV*/
+img /*Image du CV*/ 
 {
 	margin-top: 62px;
 	margin-bottom: 40px;
@@ -81,7 +81,7 @@ img /*Image du CV*/
 	margin-right: 83px;
 	width: 216px;
 	border-radius: 50%;
-	border: 4px solid white;
+	border: 4px solid #F57F17;
 	text-align: center;
 }
 .resume /*Bloc de la page complète*/
@@ -126,8 +126,12 @@ img /*Image du CV*/
 .information_contact /*Bloc qui contient adresse, téléphone etc..*/
 {
 	margin-top: 20px;
-	margin-bottom: 40px;
-	margin-left: 36px;
+	margin-left: 35px;
+	margin-right: 49px;
+}
+.aboutme
+{
+	text-align: justify;
 }
 
 .bloc_contact /*Bloc des H6 + p*/ 
@@ -138,35 +142,39 @@ img /*Image du CV*/
 	font-size: large;
 	height: 57px;
 }
+.title_item 
+{
+	margin-top: 117px;
+	margin-left: 63px;
+	margin-right: 45px;
+}
 .resume_item
 {
 	display: flex;
 	flex-direction: column;
+	margin-left: 63px;
+	margin-right: 45px;
 }
 
 .resume_education
 {
 	display: flex;
 	flex-direction: row;
-	margin: 30px;
 }
-.resume_work
+.resume_work 
 {
 	display: flex;
 	flex-direction: row;
-	margin: 30px;
 }
 .resume_recommandation
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin: 30px;
 }
 .title 
 {
 	border-bottom: 1px solid #FFEB3B;
-	margin: 30px;
 	font-family: 'Montserrat', sans-serif;
 }
 .title i
