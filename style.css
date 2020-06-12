@@ -85,7 +85,7 @@ img
 	display: flex;
 	flex-direction: row;
 }
-#image 
+.image 
 {
 	background-color: orange;
 	width: 30%;
@@ -129,6 +129,12 @@ aside
 	display: flex;
 	flex-direction: column;
 }
+.resume_item
+{
+	display: flex;
+	flex-direction: column;
+}
+
 .resume_education
 {
 	display: flex;
@@ -145,7 +151,6 @@ aside
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	margin: 30px;
 }
 .title 
@@ -162,20 +167,16 @@ aside
 .image_svg
 {
 	background-color: mediumvioletred;
-	display: flex;
-	flex-direction: column;
+	
 }
 .date
 {
 	background-color: blue;
-	display: flex;
-	flex-direction: column;
+	
 }
 .TEXTE
 {
 	background-color: mediumvioletred;
-	display: flex;
-	flex-direction: column;
 }
 #LOISIRS
 {
