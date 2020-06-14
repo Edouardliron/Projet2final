@@ -84,7 +84,7 @@ img /*Image du CV*/
 	border: 4px solid #F57F17;
 	text-align: center;
 }
-.resume /*Bloc de la page complète*/
+.resume /*Bloc de la page compl?e*/
 {
 	width: 1190px; /*est-je besoin de remettre la largeur ici ?*/
 	display: flex;
@@ -115,7 +115,7 @@ img /*Image du CV*/
 {
 	height: 392px;
 }
-.resume_aboutme /*Bloc à propos de moi*/
+.resume_aboutme /*Bloc ?propos de moi*/
 {
 	height: 780px;
 }
@@ -123,7 +123,7 @@ img /*Image du CV*/
 {
 	height: 182px;
 }
-.information_contact /*Bloc qui contient adresse, téléphone etc..*/
+.information_contact /*Bloc qui contient adresse, t??hone etc..*/
 {
 	margin-top: 20px;
 	margin-left: 35px;
@@ -160,11 +160,13 @@ img /*Image du CV*/
 {
 	display: flex;
 	flex-direction: row;
+	margin-top: 50px;
 }
 .resume_work 
 {
 	display: flex;
 	flex-direction: row;
+	margin-top: 50px;
 }
 .resume_recommandation
 {
@@ -175,7 +177,7 @@ img /*Image du CV*/
 .title 
 {
 	border-bottom: 1px solid #FFEB3B;
-	font-family: 'Montserrat', sans-serif;
+	margin-top: 30px;
 }
 .title i
 {
@@ -195,6 +197,7 @@ img /*Image du CV*/
 .TEXTE
 {
 	background-color: mediumvioletred;
+	margin-left: 15px;
 }
 #LOISIRS
 {
