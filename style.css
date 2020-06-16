@@ -64,7 +64,6 @@ body
 	margin: auto;
 	width: 1190px;
 	height: 1684px;
-	border: 2px solid blue;
 	font-family: 'Montserrat', sans-serif;
 }
 h1
@@ -157,6 +156,7 @@ img /*Image du CV*/
 	flex-direction: column;
 	margin-left: 63px;
 	margin-right: 45px;
+	margin-top: 15px;
 }
 
 .resume_education
@@ -197,6 +197,7 @@ img /*Image du CV*/
 {
 	font-weight: bold;
 	font-size: 26px;
+	margin-top: 10px;
 }
 .job2
 {
@@ -215,8 +216,8 @@ img /*Image du CV*/
 .date 
 {
 	height: 100px;
-	width: 750px;
-	font-weight: bold;
+	width: 800px;
+	font-weight: bolder;
 }
 .TEXTE
 {
@@ -258,9 +259,9 @@ h3
 {
 	margin-bottom: 13px;
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 25px;
 }
 p
 {
-	font-size: 17px;
+	font-size: 15px;
 }
