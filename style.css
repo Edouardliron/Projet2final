@@ -80,17 +80,6 @@ h1
 	color: orange;
 	font-weight: 700;
 }
-img /*Image du CV*/ 
-{
-	margin-top: 62px;
-	margin-bottom: 40px;
-	margin-left: 79px;
-	margin-right: 83px;
-	max-width: 216px;
-	border-radius: 50%;
-	border: 4px solid #F57F17;
-	text-align: center;
-}
 .resume /*Bloc de la page compl?e*/
 {
 	/*est-je besoin de remettre la largeur ici ?*/
@@ -108,12 +97,25 @@ img /*Image du CV*/
 }
 .bloc_left /*Bloc global de la colonne gauche*/
 {
+	display: flex;
+	flex-direction: column;
 	flex: 3;
 	background-color: orange;
 	max-width: 30%;
+	margin: 0 0 0 0;
+}
+#photo_cv
+{
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
 	display: flex;
-	flex-direction: column;
-	overflow-wrap: break-word;
+}
+#photo_cv img
+{
+	margin: auto;
+	border: 4px solid #F57F17;
+	border-radius: 50%;
+	max-width: 200px;
 }
 .bloc_right /*Bloc Global de la colonne droite*/
 {
@@ -208,8 +210,9 @@ img /*Image du CV*/
 }
 .title_right
 {
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 10px;
+	font-weight: 500;
 	font-weight: bold;
 }
 .job
@@ -233,18 +236,18 @@ img /*Image du CV*/
 	margin-right: 10px;
 	font-size: 12px;
 }
-.date 
+.date
 {
 	height: 100px;
 	width: 30%;
-	font-weight: bolder;
+	font-weight: 500;
 }
 .TEXTE
 {
 	width: 70%;
 	text-align: justify;
 }
-#LOISIRS
+.LOISIRS
 {
 	display: flex;
 	justify-content: space-between;
@@ -257,8 +260,8 @@ img /*Image du CV*/
 }
 .resume_loisirs ul li
 {
-	min-width: 65px;
-	min-height: 65px;
+	min-width: 60px;
+	min-height: 60px;
 	border: 2px solid black;
 	border-radius: 50%;
 	position: relative;
@@ -276,34 +279,42 @@ img /*Image du CV*/
 {
 	font-size: 50px;
 }
+.title_resume i
+{
+	padding-right: 1.1rem;
+}
 .name_recommandation
 {
+	font-weight: 500;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 15px;
 	margin-bottom: 10px;
 }
 h3
 {
 	margin-bottom: 13px;
+	font-weight: 700;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 20px;
 }
 h5
 {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 14px;
 }
 h6
 {
-	font-size: 16px;
+	font-size: 14px;
+	font-weight: 500;
 	margin-top: 10px;
 }
 p
 {
-	font-size: 14px;
+	font-size: 12px;
+	font-weight: 400;
 }
 /*CSS RESPONSIVE*/
-@media only screen and (max-width: 576px)
+@media only screen and (max-width: 870px)
 {
 	.resume
 	{
