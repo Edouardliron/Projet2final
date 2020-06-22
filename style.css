@@ -337,6 +337,10 @@ p
 		text-align: center;
 		margin: auto;
 	}
+	.TEXTE
+	{
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 570px)
 {
@@ -351,5 +355,10 @@ p
 	.resume_education, .resume_work
 	{
 		flex-direction: column;
+		max-width: 100%;
+	}
+	.TEXTE
+	{
+		width: 100%;
 	}
 }
