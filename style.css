@@ -142,6 +142,7 @@ h1
 .resume_loisirs /*Bloc Loisirs*/
 {
 	flex: 0.6;
+	justify-content: flex-end;
 }
 .information_contact /*Bloc qui contient adresse, t??hone etc..*/
 {
@@ -335,5 +336,20 @@ p
 	{
 		text-align: center;
 		margin: auto;
+	}
+}
+@media only screen and (max-width: 570px)
+{
+	body
+	{
+		overflow-wrap: break-word;
+	}
+	.bloc_left, .bloc_right
+	{
+		max-width: 100%;
+	}
+	.resume_education, .resume_work
+	{
+		flex-direction: column;
 	}
 }
