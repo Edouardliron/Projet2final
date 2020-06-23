@@ -67,9 +67,8 @@ body
 	margin: 0 auto;
 	font-family: 'Montserrat', sans-serif, Arial;
 	overflow-wrap: break-word;
-	letter-spacing: 0.02rem; /*espacement des lettres dans le conteneur*/
+	letter-spacing: 0.02em; /*espacement des lettres dans le conteneur*/
 	line-height: 1.5;
-	border: solid blue;
 }
 h1
 {
@@ -106,7 +105,7 @@ h1
 }
 #photo_cv
 {
-	padding-top: 2rem;
+	padding-top: 2em;
 	padding-bottom: 1.5rem;
 	display: flex;
 }
@@ -132,7 +131,7 @@ h1
 	
 	flex: 1;
 	overflow-wrap: break-word;
-	letter-spacing: 0.02rem;
+	letter-spacing: 0.02em;
 	line-height: 1.5;
 }
 .resume_aboutme /*Bloc ?propos de moi*/
@@ -146,7 +145,7 @@ h1
 }
 .information_contact /*Bloc qui contient adresse, t??hone etc..*/
 {
-	padding: 0 2rem 2rem 2rem;
+	padding: 0 2em 2em 2em;
 }
 .information_contact, aboutme
 {
@@ -154,7 +153,7 @@ h1
 }
 .aboutme
 {
-	padding-top: 1rem;
+	padding-top: 1em;
 }
 
 .bloc_contact /*Bloc des H6 + p*/ 
@@ -194,10 +193,11 @@ h1
 .resume_recommandation
 {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	margin-top: 30px;
-	margin-right: 150px;
+}
+.coordonne_recommandation
+{
+	width: 50%;
 }
 .title 
 {
@@ -307,7 +307,6 @@ h6
 {
 	font-size: 14px;
 	font-weight: 500;
-	margin-top: 10px;
 }
 p
 {
@@ -352,7 +351,7 @@ p
 	{
 		max-width: 100%;
 	}
-	.resume_education, .resume_work
+	.resume_education, .resume_work, .resume_recommandation
 	{
 		flex-direction: column;
 		max-width: 100%;
