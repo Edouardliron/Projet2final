@@ -217,7 +217,7 @@ h1
 }
 .title_right
 {
-	font-size: 16px;
+	font-size: 19px;
 	margin-bottom: 10px;
 	font-weight: 500;
 	font-weight: bold;
@@ -249,6 +249,10 @@ h1
 	width: 30%;
 	font-weight: 500;
 
+}
+.date p
+{
+	font-weight: bold;
 }
 .TEXTE
 {
@@ -309,7 +313,7 @@ h3
 h5
 {
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 20px;
 }
 h6
 {
@@ -318,7 +322,7 @@ h6
 }
 p
 {
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 400;
 	text-align: justify;
 	padding-bottom: 1em;
@@ -375,8 +379,6 @@ p
 	{
 		width: 100%;
 	}
-	.image_svg.date
-
 }
 
 
