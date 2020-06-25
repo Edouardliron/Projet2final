@@ -165,6 +165,7 @@ h1
 	text-align: left;
 	font-size: large;
 	max-height: 57px;
+	padding-bottom: 1em;
 }
 .title_item 
 {
@@ -319,6 +320,13 @@ h6
 {
 	font-size: 14px;
 	font-weight: 500;
+}
+.bloc_contact p
+{
+	font-size: 16px;
+	font-weight: 400;
+	text-align: justify;
+	padding-bottom: 0;
 }
 p
 {
