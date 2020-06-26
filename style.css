@@ -67,7 +67,7 @@ body
 	border: 1px solid #CCC;
 	width: auto;
 	margin: 0 auto;
-	font-family: 'Montserrat', sans-serif, Arial;
+	font-family: 'Montserrat', sans-serif,
 	overflow-wrap: break-word;
 	letter-spacing: 0.02em; /*espacement des lettres dans le conteneur*/
 	line-height: 1.5;
@@ -189,12 +189,7 @@ h1
 {
 	display: flex;
 	margin-top: 50px;
-}
-.resume_work 
-{
-	display: flex;
 	justify-content: space-between;
-	margin-top: 50px;
 }
 .resume_recommandation
 {
@@ -247,7 +242,7 @@ h1
 .date
 {
 	height: 100px;
-	width: 30%;
+	min-width: 30%;
 	font-weight: 500;
 
 }
@@ -316,11 +311,6 @@ h5
 	font-weight: 500;
 	font-size: 20px;
 }
-h6
-{
-	font-size: 14px;
-	font-weight: 500;
-}
 .bloc_contact p
 {
 	font-size: 16px;
@@ -377,14 +367,23 @@ p
 	{
 		max-width: 100%;
 	}
-	.resume_education, .resume_work, .resume_recommandation
+	.resume_education
 	{
 		flex-direction: column;
 		justify-content: space-between;
 		max-width: 100%;
 	}
+	.image_svg, .date
+	{
+		flex-direction: row
+	}
+	.resume_recommandation
+	{
+		max-width: 100%;
+	}
 	.TEXTE
 	{
+		flex-direction: column;
 		width: 100%;
 	}
 }
