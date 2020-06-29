@@ -356,6 +356,10 @@ p
 		text-align: center;
 		margin: auto;
 	}
+	.date
+	{
+		padding-right: 0.5em;
+	}
 	.TEXTE
 	{
 		width: 100%;
@@ -373,13 +377,10 @@ p
 		justify-content: space-between;
 		max-width: 100%;
 	}
-	.image_svg, .date
-	{
-		flex-direction: row
-	}
 	.resume_recommandation
 	{
 		max-width: 100%;
+		justify-content: space-between;
 	}
 	.TEXTE
 	{
