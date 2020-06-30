@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap'); /*Police Google*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,10 +27,6 @@ footer, header, hgroup, menu, nav, section
 {
 	display: block;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap'); /*Police Google*/
-
-
-
 body /*est-ce que cette balise CSS est active ?*/
 {
 	line-height: 1;
