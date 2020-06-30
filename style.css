@@ -259,6 +259,7 @@ h1
 {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 0.5em;
 }
 .resume_loisirs ul 
 {
@@ -374,19 +375,23 @@ p
 	}
 	.resume_education
 	{
-		flex-direction: column;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		max-width: 100%;
+	}
+	.image_svg
+	{
+		flex: 0 0 4%;
+		padding-top: 3px;
+	}
+	.date
+	{
+		flex: 0 0 90%;
 	}
 	.resume_recommandation
 	{
 		max-width: 100%;
 		justify-content: space-between;
-	}
-	.TEXTE
-	{
-		flex-direction: column;
-		width: 100%;
 	}
 }
 
