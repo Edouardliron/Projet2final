@@ -259,13 +259,14 @@ h1
 {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 0.5em;
 }
 .resume_loisirs ul 
 {
 	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
+	padding-top: 2em;
+
 }
 .resume_loisirs ul li
 {
